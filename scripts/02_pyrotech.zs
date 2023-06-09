@@ -163,7 +163,7 @@ Burn.createBuilder("coke_from_coal-ref", <minecraft:coal:1>, "minecraft:coal_blo
     .addFailureItem(<pyrotech:material:0> * 4) // ash
     .addFailureItem(<pyrotech:material:21> * 4) // coal flakes
     .addFailureItem(<pyrotech:material:21> * 6) // coal flakes
-    .addFailureItem(<pyrotech:material:15> * 8) // coal flakes
+    .addFailureItem(<pyrotech:material:21> * 8) // coal flakes
     .setRequiresRefractoryBlocks(true)
     .register();
 StoneCrucible.removeRecipes(<liquid:wood_tar>);
