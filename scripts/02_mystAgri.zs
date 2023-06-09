@@ -34,102 +34,37 @@ val tungsten = <immersiveintelligence:ore:2>;
 
 ManaInfusion.addInfusion(<mysticalagriculture:tier1_inferium_seeds>, <minecraft:wheat_seeds>, 2500);
 
-recipes.addShaped("MystAgr-coal", coal * 12, [
-  [<mysticalagriculture:coal_essence>, <mysticalagriculture:coal_essence>, <mysticalagriculture:coal_essence>],
-  [<mysticalagriculture:coal_essence>, null, <mysticalagriculture:coal_essence>],
-  [<mysticalagriculture:coal_essence>, <mysticalagriculture:coal_essence>, <mysticalagriculture:coal_essence>] ]);
-recipes.addShaped("MystAgr-copper", copper * 6, [
-  [<mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>],
-  [<mysticalagriculture:copper_essence>, null, <mysticalagriculture:copper_essence>],
-  [<mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>, <mysticalagriculture:copper_essence>] ]);
-recipes.addShaped("MystAgr-aluminum", aluminum * 8, [
-  [<mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>],
-  [<mysticalagriculture:aluminum_essence>, null, <mysticalagriculture:aluminum_essence>],
-  [<mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>, <mysticalagriculture:aluminum_essence>] ]);
-recipes.addShaped("MystAgr-zinc", zinc * 4, [
-  [<mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>],
-  [<mysticalagriculture:zinc_essence>, null, <mysticalagriculture:zinc_essence>],
-  [<mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>, <mysticalagriculture:zinc_essence>] ]);
-recipes.addShaped("MystAgr-iron", iron * 6, [
-  [<mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>],
-  [<mysticalagriculture:iron_essence>, null, <mysticalagriculture:iron_essence>],
-  [<mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>, <mysticalagriculture:iron_essence>] ]);
-recipes.addShaped("MystAgr-cinnabar", cinnabar * 4, [
-  [<mysticalagriculture:quicksilver_essence>, <mysticalagriculture:quicksilver_essence>, <mysticalagriculture:quicksilver_essence>],
-  [<mysticalagriculture:quicksilver_essence>, null, <mysticalagriculture:quicksilver_essence>],
-  [<mysticalagriculture:quicksilver_essence>, <mysticalagriculture:quicksilver_essence>, <mysticalagriculture:quicksilver_essence>] ]);
-recipes.addShaped("MystAgr-glowstone", glowstone * 4, [
-  [<mysticalagriculture:glowstone_essence>, <mysticalagriculture:glowstone_essence>, <mysticalagriculture:glowstone_essence>],
-  [<mysticalagriculture:glowstone_essence>, null, <mysticalagriculture:glowstone_essence>],
-  [<mysticalagriculture:glowstone_essence>, <mysticalagriculture:glowstone_essence>, <mysticalagriculture:glowstone_essence>] ]);
-recipes.addShaped("MystAgr-redstone", redstone * 4, [
-  [<mysticalagriculture:redstone_essence>, <mysticalagriculture:redstone_essence>, <mysticalagriculture:redstone_essence>],
-  [<mysticalagriculture:redstone_essence>, null, <mysticalagriculture:redstone_essence>],
-  [<mysticalagriculture:redstone_essence>, <mysticalagriculture:redstone_essence>, <mysticalagriculture:redstone_essence>] ]);
-recipes.addShaped("MystAgr-obsidian", obsidian * 12, [
-  [<mysticalagriculture:obsidian_essence>, <mysticalagriculture:obsidian_essence>, <mysticalagriculture:obsidian_essence>],
-  [<mysticalagriculture:obsidian_essence>, null, <mysticalagriculture:obsidian_essence>],
-  [<mysticalagriculture:obsidian_essence>, <mysticalagriculture:obsidian_essence>, <mysticalagriculture:obsidian_essence>] ]);
-recipes.addShaped("MystAgr-ardite", ardite * 3, [
-  [<mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>],
-  [<mysticalagriculture:ardite_essence>, null, <mysticalagriculture:ardite_essence>],
-  [<mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>, <mysticalagriculture:ardite_essence>] ]);
-recipes.addShaped("MystAgr-tin", tin * 4, [
-  [<mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>],
-  [<mysticalagriculture:tin_essence>, null, <mysticalagriculture:tin_essence>],
-  [<mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>, <mysticalagriculture:tin_essence>] ]);
-recipes.addShaped("MystAgr-silver", silver * 4, [
-  [<mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>],
-  [<mysticalagriculture:silver_essence>, null, <mysticalagriculture:silver_essence>],
-  [<mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>, <mysticalagriculture:silver_essence>] ]);
-recipes.addShaped("MystAgr-lead", lead * 4, [
-  [<mysticalagriculture:lead_essence>, <mysticalagriculture:lead_essence>, <mysticalagriculture:lead_essence>],
-  [<mysticalagriculture:lead_essence>, null, <mysticalagriculture:lead_essence>],
-  [<mysticalagriculture:lead_essence>, <mysticalagriculture:lead_essence>, <mysticalagriculture:lead_essence>] ]);
-recipes.addShaped("MystAgr-gold", gold * 4, [
-  [<mysticalagriculture:gold_essence>, <mysticalagriculture:gold_essence>, <mysticalagriculture:gold_essence>],
-  [<mysticalagriculture:gold_essence>, null, <mysticalagriculture:gold_essence>],
-  [<mysticalagriculture:gold_essence>, <mysticalagriculture:gold_essence>, <mysticalagriculture:gold_essence>] ]);
-recipes.addShaped("MystAgr-lapis", lapis * 4, [
-  [<mysticalagriculture:lapis_lazuli_essence>, <mysticalagriculture:lapis_lazuli_essence>, <mysticalagriculture:lapis_lazuli_essence>],
-  [<mysticalagriculture:lapis_lazuli_essence>, null, <mysticalagriculture:lapis_lazuli_essence>],
-  [<mysticalagriculture:lapis_lazuli_essence>, <mysticalagriculture:lapis_lazuli_essence>, <mysticalagriculture:lapis_lazuli_essence>] ]);
-recipes.addShaped("MystAgr-xp", xp * 8, [
-  [<mysticalagriculture:experience_essence>, <mysticalagriculture:experience_essence>, <mysticalagriculture:experience_essence>],
-  [<mysticalagriculture:experience_essence>, null, <mysticalagriculture:experience_essence>],
-  [<mysticalagriculture:experience_essence>, <mysticalagriculture:experience_essence>, <mysticalagriculture:experience_essence>] ]);
-recipes.addShaped("MystAgr-nickel", nickel * 4, [
-  [<mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>],
-  [<mysticalagriculture:nickel_essence>, null, <mysticalagriculture:nickel_essence>],
-  [<mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>, <mysticalagriculture:nickel_essence>] ]);
-recipes.addShaped("MystAgr-amber", amber * 6, [
-  [<mysticalagriculture:amber_essence>, <mysticalagriculture:amber_essence>, <mysticalagriculture:amber_essence>],
-  [<mysticalagriculture:amber_essence>, null, <mysticalagriculture:amber_essence>],
-  [<mysticalagriculture:amber_essence>, <mysticalagriculture:amber_essence>, <mysticalagriculture:amber_essence>] ]);
-recipes.addShaped("MystAgr-cobalt", cobalt * 3, [
-  [<mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>],
-  [<mysticalagriculture:cobalt_essence>, null, <mysticalagriculture:cobalt_essence>],
-  [<mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>, <mysticalagriculture:cobalt_essence>] ]);
-recipes.addShaped("MystAgr-diamond", diamond, [
-  [<mysticalagriculture:diamond_essence>, <mysticalagriculture:diamond_essence>, <mysticalagriculture:diamond_essence>],
-  [<mysticalagriculture:diamond_essence>, null, <mysticalagriculture:diamond_essence>],
-  [<mysticalagriculture:diamond_essence>, <mysticalagriculture:diamond_essence>, <mysticalagriculture:diamond_essence>] ]);
-recipes.addShaped("MystAgr-emerald", emerald, [
-  [<mysticalagriculture:emerald_essence>, <mysticalagriculture:emerald_essence>, <mysticalagriculture:emerald_essence>],
-  [<mysticalagriculture:emerald_essence>, null, <mysticalagriculture:emerald_essence>],
-  [<mysticalagriculture:emerald_essence>, <mysticalagriculture:emerald_essence>, <mysticalagriculture:emerald_essence>] ]);
-recipes.addShaped("MystAgr-uranium", uranium * 2, [
-  [<mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>],
-  [<mysticalagriculture:uranium_essence>, null, <mysticalagriculture:uranium_essence>],
-  [<mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>] ]);
-recipes.addShaped("MystAgr-platinum", platinum * 2, [
-  [<mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>],
-  [<mysticalagriculture:platinum_essence>, null, <mysticalagriculture:platinum_essence>],
-  [<mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>, <mysticalagriculture:platinum_essence>] ]);
-recipes.addShaped("MystAgr-tungsten", tungsten * 2, [
-  [<mysticalagriculture:tungsten_essence>, <mysticalagriculture:tungsten_essence>, <mysticalagriculture:tungsten_essence>],
-  [<mysticalagriculture:tungsten_essence>, null, <mysticalagriculture:tungsten_essence>],
-  [<mysticalagriculture:tungsten_essence>, <mysticalagriculture:tungsten_essence>, <mysticalagriculture:tungsten_essence>] ]);
+function craftSquare(name as string, output as IItemStack, input as IIngredient){
+  recipes.addShaped(name, output, [
+    [input, input, input],
+    [input, null,  input],
+    [input, input, input]
+  ]);
+}
+craftSquare("MystAgr-coal", coal * 12, <mysticalagriculture:coal_essence>);
+craftSquare("MystAgr-copper", copper * 6, <mysticalagriculture:copper_essence>);
+craftSquare("MystAgr-aluminum", aluminum * 8, <mysticalagriculture:aluminum_essence>);
+craftSquare("MystAgr-zinc", zinc * 4, <mysticalagriculture:zinc_essence>);
+craftSquare("MystAgr-iron", iron * 6, <mysticalagriculture:iron_essence>);
+craftSquare("MystAgr-cinnabar", cinnabar * 4, <mysticalagriculture:quicksilver_essence>);
+craftSquare("MystAgr-glowstone", glowstone * 4, <mysticalagriculture:glowstone_essence>);
+craftSquare("MystAgr-redstone", redstone * 4, <mysticalagriculture:redstone_essence>);
+craftSquare("MystAgr-obsidian", obsidian * 12, <mysticalagriculture:obsidian_essence>);
+craftSquare("MystAgr-ardite", ardite * 3, <mysticalagriculture:ardite_essence>);
+craftSquare("MystAgr-tin", tin * 4, <mysticalagriculture:tin_essence>);
+craftSquare("MystAgr-silver", silver * 4, <mysticalagriculture:silver_essence>);
+craftSquare("MystAgr-lead", lead * 4, <mysticalagriculture:lead_essence>);
+craftSquare("MystAgr-gold", gold * 4, <mysticalagriculture:gold_essence>);
+craftSquare("MystAgr-lapis", lapis * 4, <mysticalagriculture:lapis_lazuli_essence>);
+craftSquare("MystAgr-xp", xp * 8, <mysticalagriculture:experience_essence>);
+craftSquare("MystAgr-nickel", nickel * 4, <mysticalagriculture:nickel_essence>);
+craftSquare("MystAgr-amber", amber * 6, <mysticalagriculture:amber_essence>);
+craftSquare("MystAgr-cobalt", cobalt * 3, <mysticalagriculture:cobalt_essence>);
+craftSquare("MystAgr-diamond", diamond, <mysticalagriculture:diamond_essence>);
+craftSquare("MystAgr-emerald", emerald, <mysticalagriculture:emerald_essence>);
+craftSquare("MystAgr-uranium", uranium * 2, <mysticalagriculture:uranium_essence>);
+craftSquare("MystAgr-platinum", platinum * 2, <mysticalagriculture:platinum_essence>);
+craftSquare("MystAgr-tungsten", tungsten * 2, <mysticalagriculture:tungsten_essence>);
 
 
 
