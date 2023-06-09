@@ -1,0 +1,90 @@
+import crafttweaker.oredict.IOreDictEntry;
+
+<ore:dyeBlackItem>.addItems([
+	<minecraft:dye:0>,
+	<atum:dye_black>,
+	<bewitchment:iron_gall_ink>,
+	<biomesoplenty:black_dye>,
+	<botania:dye:15>,
+	<mysticalworld:ink_bottle>,
+	<quark:root_dye:1>,
+	<forbiddenmagicre:resourcefm:1>]);
+<ore:dyeRedItem>.addItems([
+	<minecraft:dye:1>,
+	<bewitchment:dragons_blood_resin>,
+	<botania:dye:14>,
+	<evilcraft:hardened_blood_shard>,
+	<rustic:wildberries>]);
+<ore:dyeGreenItem>.addItems([
+	<minecraft:dye:2>,
+	<biomesoplenty:green_dye>,
+	<botania:dye:13>]);
+<ore:dyeBrownItem>.addItems([
+	<minecraft:dye:3>,
+	<atum:dye_brown>,
+	<bewitchment:catechu_brown>,
+	<biomesoplenty:brown_dye>,
+	<botania:dye:12>]);
+<ore:dyeBlueItem>.addItems([
+	<minecraft:dye:4>,
+	<bewitchment:ink_cap_dye>,
+	<biomesoplenty:blue_dye>,
+	<quark:root_dye>,
+	<botania:dye:11>]);
+<ore:dyePurpleItem>.addItems([
+	<minecraft:dye:5>,
+	<rustic:grapes>,
+	<botania:dye:10>]);
+<ore:dyeCyanItem>.addItems([
+	<minecraft:dye:6>,
+	<botania:dye:9>]);
+<ore:dyeLightGrayItem>.addItems([
+	<minecraft:dye:7>,
+	<rustic:ironberries>,
+	<botania:dye:8>]);
+<ore:dyeGrayItem>.addItems([
+	<minecraft:dye:8>,
+	<botania:dye:7>]);
+<ore:dyePinkItem>.addItems([
+	<minecraft:dye:9>,
+	<botania:dye:6>]);
+<ore:dyeLimeItem>.addItems([
+	<minecraft:dye:10>,
+	<botania:dye:5>]);
+<ore:dyeYellowItem>.addItems([
+	<minecraft:dye:11>,
+	<botania:dye:4>]);
+<ore:dyeLightBlueItem>.addItems([
+	<minecraft:dye:12>,
+	<botania:dye:3>]);
+<ore:dyeMagentaItem>.addItems([
+	<minecraft:dye:13>,
+	<botania:dye:2>]);
+<ore:dyeOrangeItem>.addItems([
+	<minecraft:dye:14>,
+	<botania:dye:1>]);
+<ore:dyeWhiteItem>.addItems([
+	<minecraft:dye:15>,
+	<biomesoplenty:white_dye>,
+	<quark:root_dye:2>,
+	<botania:dye:0>]);
+val itemizeDye = {
+	<ore:dyeBlackItem>:<ore:dyeBlack>,
+	<ore:dyeRedItem>:<ore:dyeRed>,
+	<ore:dyeGreenItem>:<ore:dyeGreen>,
+	<ore:dyeBrownItem>:<ore:dyeBrown>,
+	<ore:dyeBlueItem>:<ore:dyeBlue>,
+	<ore:dyePurpleItem>:<ore:dyePurple>,
+	<ore:dyeCyanItem>:<ore:dyeCyan>,
+	<ore:dyeLightGrayItem>:<ore:dyeLightGray>,
+	<ore:dyeGrayItem>:<ore:dyeGray>,
+	<ore:dyePinkItem>:<ore:dyePink>,
+	<ore:dyeLimeItem>:<ore:dyeLime>,
+	<ore:dyeYellowItem>:<ore:dyeYellow>,
+	<ore:dyeLightBlueItem>:<ore:dyeLightBlue>,
+	<ore:dyeMagentaItem>:<ore:dyeMagenta>,
+	<ore:dyeOrangeItem>:<ore:dyeOrange>,
+	<ore:dyeWhiteItem>:<ore:dyeWhite>
+} as IOreDictEntry[IOreDictEntry];
+for dyeItem, oreDye in itemizeDye {for item in dyeItem.items{oreDye.remove(item);}}
+for item in <ore:dye>.items {<ore:dye>.remove(item);}

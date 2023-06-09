@@ -1,0 +1,172 @@
+import crafttweaker.item.IItemStack;
+
+<ore:listAllberry>.add(<integrateddynamics:menril_berries>);
+<ore:listAllfruit>.add(<integrateddynamics:menril_berries>);
+<ore:treeSapling>.addItems([
+	<thebetweenlands:sapling_spirit_tree>,
+	<roots:wildwood_sapling>,
+	<lost_aether:crystal_sapling>,
+	<midnight:shadowroot_sapling>,
+	<midnight:dark_willow_sapling>,
+	<naturesaura:ancient_sapling>,
+	<immersiveintelligence:rubber_sapling>,
+	<animus:blockbloodsapling>]);
+<ore:listAllseed>.addItems([
+	<divinerpg:aquamarine_seeds>,
+	<divinerpg:eucalyptus_root_seeds>,
+	<divinerpg:firestock_seeds>,
+	<divinerpg:hitchak_seeds>,
+	<divinerpg:lamona_seeds>,
+	<divinerpg:marsine_seeds>,
+	<divinerpg:moonbulb_seeds>,
+	<divinerpg:pinfly_seeds>,
+	<divinerpg:pink_glowbone_seeds>,
+	<divinerpg:purple_glowbone_seeds>,
+	<divinerpg:sky_plant_seeds>,
+	<divinerpg:tomato_seeds>,
+	<divinerpg:veilo_seeds>,
+	<divinerpg:white_mushroom_seeds>,
+	<mysticalagriculture:experience_seeds>,
+	<mysticalagriculture:diamond_seeds>,
+	<mysticalagriculture:emerald_seeds>,
+	<mysticalagriculture:slime_seeds>,
+	<mysticalagriculture:skeleton_seeds>,
+	<mysticalagriculture:creeper_seeds>,
+	<mysticalagriculture:spider_seeds>,
+	<mysticalagriculture:blaze_seeds>,
+	<mysticalagriculture:ghast_seeds>,
+	<mysticalagriculture:crafting:17>,
+	<mysticalagriculture:tier1_inferium_seeds>,
+	<mysticalagriculture:stone_seeds>,
+	<mysticalagriculture:dirt_seeds>,
+	<mysticalagriculture:dye_seeds>,
+	<mysticalagriculture:nature_seeds>,
+	<mysticalagriculture:water_seeds>,
+	<mysticalagriculture:fire_seeds>,
+	<mysticalagriculture:nether_seeds>,
+	<mysticalagriculture:coal_seeds>,
+	<mysticalagriculture:iron_seeds>,
+	<mysticalagriculture:glowstone_seeds>,
+	<mysticalagriculture:redstone_seeds>,
+	<mysticalagriculture:obsidian_seeds>,
+	<mysticalagriculture:gold_seeds>,
+	<mysticalagriculture:lapis_lazuli_seeds>,
+	<mysticalagriculture:end_seeds>,
+	<mysticalagriculture:wither_skeleton_seeds>,
+	<mysticalagriculture:aluminum_seeds>,
+	<mysticalagriculture:copper_seeds>,
+	<mysticalagriculture:tin_seeds>,
+	<mysticalagriculture:zinc_seeds>,
+	<mysticalagriculture:silver_seeds>,
+	<mysticalagriculture:lead_seeds>,
+	<mysticalagriculture:nickel_seeds>,
+	<mysticalagriculture:tungsten_seeds>,
+	<mysticalagriculture:uranium_seeds>,
+	<mysticalagriculture:platinum_seeds>,
+	<mysticalagriculture:amber_seeds>,
+	<mysticalagriculture:ardite_seeds>,
+	<mysticalagriculture:cobalt_seeds>,
+	<mysticalagriculture:quicksilver_seeds>,
+	<atum:emmer_seeds>,
+	<atum:flax_seeds>,
+	<pyrotech:pyroberry_seeds>,
+	<pyrotech:gloamberry_seeds>,
+	<pyrotech:freckleberry_seeds>,
+	<roots:moonglow_seed>,
+	<roots:spirit_herb_seed>,
+	<roots:wildewheet_seed>,
+	<rustic:grape_stem>,
+	<rustic:apple_seeds>,
+	<rustic:tomato_seeds>,
+	<rustic:chili_pepper_seeds>,
+	<rusticthaumaturgy:cindermote_seeds>,
+	<t3s4ebw:magic_seed>,
+	<forbidden_arcanus:golden_orchid_seeds>,
+	<immersiveengineering:seed>,
+	<midnight:unstable_seeds>,
+	<chococraft:gysahl_green_seeds>,
+	<agricraft:agri_seed>,
+	<theaurorian:lavenderseeds>]);
+<ore:listPlantgrowth>.addItems([
+	<minecraft:dye:15>,
+	<forestry:fertilizer_compound>,
+	<minecolonies:compost>,
+	<thebetweenlands:items_misc:2>,
+	<forestry:fertilizer_bio>,
+	<pyrotech:mulch>,
+	<forestry:mulch>]);
+<ore:foodVegetablecooked>.addItems([
+	<mysticalworld:cooked_beetroot>,
+	<pyrotech:carrot_roasted>,
+	<minecraft:baked_potato>,
+	<roots:cooked_pereskia>]);
+<ore:itemSlag>.add(<pyrotech:slag>);
+<ore:toolTwine>.addItems([
+	<pyrotech:material:12>,
+	<pyrotech:material:14>]);
+<ore:itemBitumen>.addItems([
+	<immersivepetroleum:material>,
+	<thebetweenlands:items_misc:26>]);
+<ore:itemGall>.addItems([
+	<mysticalworld:gall_apple>,
+	<bewitchment:oak_apple_gall>]);
+<ore:dustAsh>.addItems([
+	<pyrotech:material>,
+	<biomesoplenty:ash>]);
+<ore:boneWithered>.add(<soulus:bone_nether>);
+<ore:pestleStone>.removeItems([
+	<minecraft:stone>,
+	<minecraft:stone:1>,
+	<minecraft:stone:3>,
+	<minecraft:stone:5>]);
+<ore:pestleStone>.addItems([
+	<minecraft:stone:2>,
+	<minecraft:stone:4>,
+	<minecraft:stone:6>
+]);
+<ore:tallow>.add(<pyrotech:material:49>);
+val badTallow = [<rustic:tallow>,<rustic:beeswax>] as IItemStack[];
+for item in badTallow {
+	<ore:tallow>.remove(item);
+	<ore:wax>.remove(item);}
+val tallowWitch = [<bewitchment:tallow>] as IItemStack[];
+for item in tallowWitch {
+	<ore:itemBeeswax>.remove(item);
+	<ore:materialWax>.remove(item);
+	<ore:materialBeeswax>.remove(item);
+	<ore:materialPressedwax>.remove(item);
+	<ore:clumpWax>.remove(item);
+	<ore:beeswax>.remove(item);
+	<ore:itemWax>.remove(item);
+	<ore:wax>.remove(item);}
+val combRustic = [<rustic:honeycomb>] as IItemStack[];
+for item in combRustic {
+	<ore:materialWaxcomb>.remove(item);
+	<ore:materialHoneycomb>.remove(item);
+	<ore:beeComb>.add(item);}
+<ore:sugarcane>.remove(<thebetweenlands:swamp_reed_item>);
+<ore:cropDate>.add(<atum:date>);
+<ore:cropTomato>.add(<divinerpg:tomato>);
+<ore:listAllMeatRaw>.addItems([
+	<quark:crab_leg>,
+	<midnight:hunter_wing>,
+	<quark:frog_leg>,
+	<minecraft:fish>,
+	<thebetweenlands:anadia_meat_raw>,
+	<mysticalworld:raw_squid>,
+	<chococraft:chocobo_drumstick_raw>,
+	<aether_legacy:cockatrice>,
+	<divinerpg:raw_empowered_meat>,
+	<theaurorian:aurorianpork>,
+	<mysticalworld:venison>,
+	<aether_legacy:enchanted_cockatrice>,
+	<twilightforest:raw_venison>,
+	<atum:camel_raw>,
+	<twilightforest:raw_meef>,
+	<midnight:raw_stag_flank>,
+	<totemic:buffalo_meat>,
+	<rats:raw_rat>,
+	<thebetweenlands:snail_flesh_raw>,
+	<thebetweenlands:barnacle>,
+	<thebetweenlands:frog_legs_raw>,
+	<thebetweenlands:kraken_tentacle>]);
