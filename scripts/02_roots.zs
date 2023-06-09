@@ -11,7 +11,7 @@ RunicShears.removeEntityRecipe(<entity:minecraft:villager_golem>);
 RunicShears.addEntityRecipe("iron_from_golem", <minecraft:iron_nugget>, <entity:minecraft:villager_golem>, 120*20);
 
 //DRY function for changing living tool recipes
-function livingFey(name as string, output as IItemStack, input as IItemStack){
+function livingFix(name as string, output as IItemStack, input as IItemStack){
   Fey.removeRecipe(output);
   Fey.addRecipe(name, output, [
     <minecraft:gold_ingot>|<embers:ingot_silver>, 
