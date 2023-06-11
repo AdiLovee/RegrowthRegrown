@@ -1,4 +1,6 @@
 import mods.botania.ManaInfusion;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 recipes.removeByMod("mysticalagriculture");
 recipes.removeByMod("mysticalagradditions");
