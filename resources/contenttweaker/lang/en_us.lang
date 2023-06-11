@@ -1,0 +1,19 @@
+fluid.Redstone=Molten Redstone
+fluid.Glowstone=Molten Glowstone
+fluid.Ender=Molten Ender
+
+item.contenttweaker.ingot_lumium.name=Lumium Ingot
+item.contenttweaker.nugget_lumium.name=Lumium Nugget
+item.contenttweaker.dye_red.name=Red Dye
+item.contenttweaker.dye_yellow.name=Yellow Dye
+item.contenttweaker.diamond_dust.name=Diamond Dust
+item.contenttweaker.obsidian_dust.name=Obsidian Dust
+item.contenttweaker.dust_obsidian_blend.name=Reinforced Obsidian Blend
+item.contenttweaker.biotite.name=Biotite Ore
+item.contenttweaker.devoritium.name=Devoritium Ore
+item.contenttweaker.match_bundle.name=Bundle of Matches
+
+tile.structurize.blockcactusstair.name=Cactus Stairs
+
+modifier.alchemical.name=Alchemical
+modifier.alchemical.desc=§oNot-So-Equivalent Exchange§r\nRandomly gives potion effects when attacking.
